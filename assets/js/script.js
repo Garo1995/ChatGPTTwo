@@ -115,6 +115,6 @@ let cramSwiper = new Swiper(".from-cram-slider", {
     pagination: {
         el: ".from-cram-pagination",
         clickable: true,
-        
+
     }
 });
