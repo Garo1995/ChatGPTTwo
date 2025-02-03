@@ -36,7 +36,7 @@ p{
     border-radius: 100px;
     transition: 0.3s;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
     text-align: center;
     display: flex;
@@ -264,6 +264,8 @@ p{
     padding: 40px;
     position: absolute;
     text-align: left;
+    max-width: 480px;
+    width: 100%;
 }
 .students-info{
     max-width: 588px;
@@ -704,7 +706,7 @@ footer{
         max-width: 100%;
         width: 100%;
         gap: 8px;
-        padding: 135px 20px 20px;
+        padding: 115px 20px 20px;
     }
     .students-title h2 {
         top: 20px;
@@ -807,6 +809,9 @@ footer{
     }
     h1 {
         text-align: center;
+    }
+    .students-title h2 {
+        max-width: 317px;
     }
     .network-medical-info {
         max-width: 355px;
@@ -916,11 +921,12 @@ footer{
     .freshman-photo {
         max-width: 400px;
     }
-    .freshman-photo img{
+    .freshman-photo img {
         width: 100%;
         height: 200px;
         object-fit: cover;
         border-radius: 12px;
+        object-position: top;
     }
     .freshman-wrap {
         margin-top: 34px;

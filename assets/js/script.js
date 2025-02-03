@@ -10,13 +10,11 @@ $(document).ready(function () {
             $('.menu-content').removeClass('transition-menu');
         }
     });
-    $('.head-menu a').on('click', function () {
+    $('.nav-menu a').on('click', function () {
         $('.menu-content').addClass('menu-width');
         $('body').removeClass('body_fix');
         $('.menu-content').removeClass('transition-menu');
         $('.open-menu').removeClass('close-menu');
-        $('.head-menu a').removeClass('menu-href-active');
-        $(this).addClass('menu-href-active');
     })
 });
 
